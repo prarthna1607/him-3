@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>For My Love ❤️</title>
+
+<style>
+
+body{
+background: linear-gradient(to right, #ff758c, #ff7eb3);
+font-family: Arial;
+text-align:center;
+color:white;
+margin:0;
+padding:0;
+}
+
+.container{
+margin-top:120px;
+}
+
+h1{
+font-size:60px;
+}
+
+p{
+font-size:25px;
+width:70%;
+margin:auto;
+margin-top:20px;
+}
+
+button{
+margin-top:40px;
+padding:15px 40px;
+font-size:20px;
+border:none;
+border-radius:30px;
+background:white;
+color:#ff4d6d;
+cursor:pointer;
+}
+
+button:hover{
+background:#ffe5ec;
+}
+
+#message{
+display:none;
+font-size:28px;
+margin-top:30px;
+}
+
+</style>
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
+
+<div class="container">
+
+<h1>I Miss You ❤️</h1>
+
+<p>
+I just wanted to remind you that no matter how busy life gets,
+there's always someone thinking about you.
+And that someone is me.
+</p>
+
+<button onclick="showMessage()">Click this if you love me 😌</button>
+
+<p id="message">
+I miss you more than words can explain.  
+You mean more to me than you think.  
+And yes… I love you more than you think too. ❤️
+</p>
+
+</div>
+
+<script>
+
+function showMessage(){
+document.getElementById("message").style.display="block";
+}
+
+</script>
+
 </body>
 </html>
